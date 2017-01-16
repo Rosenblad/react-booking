@@ -1,0 +1,91 @@
+.form-container * {
+	box-sizing: border-box;
+}
+
+.form-container main {
+	margin-bottom: 30px;
+}
+
+.form-container {
+	width: 45%;
+	margin: 0 auto;
+}
+
+.form-title {
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 30px;
+  color: rgb(17, 17, 17);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.kb__form-text {
+	background-color: rgb(241, 241, 241);
+  color: rgb(51, 51, 51);
+  width: 100%;
+  padding: 20px;
+  font-size: 14px;
+  outline: 0;
+  border: 0;
+}
+
+.kb__form-group {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.kb__progressBarTitle {
+  position: absolute;
+  bottom: 150%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-size: 12px;
+  color: rgb(82, 82, 82);
+  text-transform: uppercase;
+}
+
+.kb__progressBars {
+	display: flex;
+  width: 70%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.kb__progressBar {
+	background-color: rgb(204, 204, 204);
+  height: 10px;
+  margin-right: 5px;
+  position: relative;
+  flex-grow: 1;
+}
+
+.kb__progressbar--active {
+	background-color: rgb(255, 165, 0);
+}
+
+.booking-form {
+	width: 100%;
+}
+
+.kb__form-text--error {
+	background: #FFCDD2;
+}
+
+.kb__form-text--error::-webkit-input-placeholder {
+	color: #E57373;
+}
+
+.error-msg {
+	position: absolute;
+  border: 1px solid rgb(255, 0, 0);
+  height: 100%;
+  padding: 10px;
+}

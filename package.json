@@ -1,0 +1,39 @@
+{
+  "name": "booking",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "rm public/assets/js/main.bundle.js && webpack -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-react-css-modules": "^2.2.0",
+    "babel-plugin-transform-react-jsx": "^6.8.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "material-ui": "^0.16.6",
+    "radium": "^0.18.1",
+    "rc-calendar": "^7.5.3",
+    "react": "15.4.2",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-addons-shallow-compare": "^15.4.2",
+    "react-day-picker": "^3.1.1",
+    "react-dom": "^15.4.2",
+    "react-infinite-calendar": "^1.2.2",
+    "react-redux": "^5.0.2",
+    "react-stripe-checkout": "^2.2.5",
+    "react-tap-event-plugin": "^2.0.1",
+    "redux": "^3.6.0",
+    "redux-form": "6.4.3",
+    "redux-saga": "^0.14.2",
+    "style-loader": "^0.13.1",
+    "validator": "^6.2.1",
+    "webpack": "2.1.0-beta.28",
+    "webpack-dev-server": "2.2.0-rc.0"
+  }
+}
